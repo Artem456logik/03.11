@@ -5,10 +5,11 @@ win = QWidget()
 
 win.setWindowTitle('Okosho_ockoshnika')
 win.resize(300,200)
+
 text = QLabel("Hello world!")
 
-
 line = QVBoxLayout()
+
 line.addWidget(text)
 line.addWidget(line)
 win.setLayout(QVBoxLayout().addWidget(text))
